@@ -1,0 +1,30 @@
+.createUser__header {
+  color: white;
+  text-align: center;
+}
+
+.createUser {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.createUser form {
+  margin-bottom: 3rem;
+}
+
+.create-user button {
+  width: 100%;
+  justify-self: center;
+  margin-top: 2rem;
+  align-self: flex-end;
+}
+.create-user {
+  justify-content: flex-end;
+}
+
+.date-range {
+  display: flex;
+  padding-top: 5rem;
+}

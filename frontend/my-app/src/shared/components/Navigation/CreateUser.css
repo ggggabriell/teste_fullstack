@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  height: 55px;
+  border: 1px solid #292929;
+  color: #292929;
+  background-color: lightgreen;
+  font: inherit;
+  padding: -8px;
+}
+
+button:hover {
+  border: none;
+}

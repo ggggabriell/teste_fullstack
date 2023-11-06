@@ -1,0 +1,70 @@
+.userinfo-item {
+  margin: 1rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+.userinfo-div {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.userinfo-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.userinfo-item a:hover,
+.userinfo-item a:active {
+  background: lightblue;
+}
+
+.userinfo-item__content {
+  padding: 2;
+  display: flex;
+  width: calc(30% - 2rem);
+}
+.userinfo-edit {
+  height: fit-content;
+}
+.userinfo-edit a {
+  margin: 0;
+  color: #292929;
+  background-color: transparent;
+  height: min-content;
+  font-size: 1rem;
+}
+
+.userinfo-edit:hover a {
+  color: lightgreen;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.userinfo-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+  color: lightblue;
+}
+
+.userinfo-item__info h3 {
+  margin: 0 0 1rem 0;
+}
+
+.user-info-form button {
+  width: 100%;
+  justify-self: center;
+  margin-top: 2rem;
+  align-self: flex-end;
+}
+.user-info-form {
+  justify-content: flex-end;
+}
